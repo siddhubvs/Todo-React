@@ -1,0 +1,131 @@
+/* Resetting default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+/*body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: orange;
+}*/
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-image: url('https://source.unsplash.com/featured/?todo');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Heading styling */
+/*h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+*/
+
+
+.header-container {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  background-image: linear-gradient(135deg, #ffd700, #ffa500); 
+  width: 30%; /* Set a fixed width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+h1 {
+  font-size: 3rem; /* Increased font size for emphasis */
+  color: #333; /* Dark color for better contrast */
+  font-weight: bold; /* Bold font for emphasis */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+
+/* Input container styling */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-container input {
+  width: 300px;
+  height: 40px;
+  font-size: 1.25rem;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input-container button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  background-color: #e63946;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #c73037;
+}
+
+/* Container styling */
+.container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Todo item styling */
+.todo {
+  width: 500px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f1faee;
+  padding: 10px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+.actions button {
+  background-color: #e63946;
+  color: white;
+  height: 30px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #c73037;
+}
+
+
+.actions input[type="checkbox"] {
+  margin-right: 10px;
+  transform: translateY(2px);
+  width: 30px; /* Adjust the width to match the button */
+  height: 30px; /* Adjust the height to match the button */
+}
+
